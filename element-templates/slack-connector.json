@@ -73,7 +73,7 @@
         "constraints": {
           "notEmpty": true,
           "pattern": {
-            "value": "^(#|@|=)?",
+            "value": "^(#|@|=).*",
             "message": "Must be a #channel, @user or FEEL expression."
           }
         }
