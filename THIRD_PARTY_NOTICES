@@ -17,7 +17,7 @@ This project incorporates components with the licenses under which Camunda recei
   * javax.annotation:jsr250-api (Version: 1.0, License: CDDLv1.0 (URL: https://opensource.org/licenses/CDDL-1.0))
   * org.apache.commons:commons-lang3 (Version: 3.12.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.apache.commons:commons-text (Version: 1.10.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
-  * org.danilopianini:gson-extras (Version: 1.0.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
+  * org.danilopianini:gson-extras (Version: 1.1.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.hibernate.validator:hibernate-validator (Version: 8.0.0.Final, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.jboss.logging:jboss-logging (Version: 3.4.1.Final, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.jetbrains:annotations (Version: 13.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
