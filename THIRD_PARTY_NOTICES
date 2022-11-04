@@ -5,21 +5,15 @@ Do Not Translate or Localize
 
 This project incorporates components with the licenses under which Camunda received them as listed below.
 
-  * com.fasterxml:classmate (Version: 1.5.1, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * com.google.code.gson:gson (Version: 2.9.1, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * com.slack.api:slack-api-client (Version: 1.26.1, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * com.slack.api:slack-api-model (Version: 1.26.1, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * com.squareup.okhttp3:okhttp (Version: 4.10.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * com.squareup.okio:okio-jvm (Version: 3.0.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
-  * io.camunda.connector:connector-core (Version: 0.2.2, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
-  * io.camunda.connector:connector-validation (Version: 0.2.2, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
-  * jakarta.validation:jakarta.validation-api (Version: 3.0.2, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * javax.annotation:jsr250-api (Version: 1.0, License: CDDLv1.0 (URL: https://opensource.org/licenses/CDDL-1.0))
   * org.apache.commons:commons-lang3 (Version: 3.12.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.apache.commons:commons-text (Version: 1.10.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.danilopianini:gson-extras (Version: 1.1.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
-  * org.hibernate.validator:hibernate-validator (Version: 8.0.0.Final, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
-  * org.jboss.logging:jboss-logging (Version: 3.4.1.Final, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.jetbrains:annotations (Version: 13.0, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.jetbrains.kotlin:kotlin-stdlib (Version: 1.7.20, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
   * org.jetbrains.kotlin:kotlin-stdlib-common (Version: 1.7.20, License: Apache-2.0 (URL: https://opensource.org/licenses/Apache-2.0))
