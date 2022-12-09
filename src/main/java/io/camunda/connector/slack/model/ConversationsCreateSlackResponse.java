@@ -4,9 +4,11 @@
  * See the License.txt file for more information. You may not use this file
  * except in compliance with the proprietary license.
  */
-package io.camunda.connector.slack;
+package io.camunda.connector.slack.model;
 
 import com.slack.api.methods.response.conversations.ConversationsCreateResponse;
+import io.camunda.connector.slack.SlackResponse;
+import io.camunda.connector.slack.dto.Conversation;
 import java.util.Objects;
 
 public class ConversationsCreateSlackResponse implements SlackResponse {
@@ -41,46 +43,5 @@ public class ConversationsCreateSlackResponse implements SlackResponse {
   @Override
   public String toString() {
     return "ConversationsCreateSlackResponse{" + "channel=" + channel + '}';
-  }
-
-  protected static class Conversation {
-
-    private final String id;
-    private final String name;
-
-    public Conversation(com.slack.api.model.Conversation conversation) {
-      this.id = conversation.getId();
-      this.name = conversation.getName();
-    }
-
-    public String getId() {
-      return id;
-    }
-
-    public String getName() {
-      return name;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-      if (this == o) {
-        return true;
-      }
-      if (o == null || getClass() != o.getClass()) {
-        return false;
-      }
-      Conversation that = (Conversation) o;
-      return Objects.equals(id, that.id) && Objects.equals(name, that.name);
-    }
-
-    @Override
-    public int hashCode() {
-      return Objects.hash(id, name);
-    }
-
-    @Override
-    public String toString() {
-      return "Conversation{" + "id='" + id + '\'' + ", name='" + name + '\'' + '}';
-    }
   }
 }

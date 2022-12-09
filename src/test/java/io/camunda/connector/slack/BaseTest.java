@@ -11,6 +11,7 @@ import static java.nio.file.Files.readString;
 
 import com.google.gson.Gson;
 import io.camunda.connector.api.outbound.OutboundConnectorContext;
+import io.camunda.connector.slack.suppliers.GsonSupplier;
 import io.camunda.connector.test.outbound.OutboundConnectorContextBuilder;
 import java.io.File;
 import java.io.IOException;
@@ -99,6 +100,14 @@ public abstract class BaseTest {
 
   protected static Stream<String> executeCreateChannelTestCases() throws IOException {
     return loadTestCasesFromResourceFile(TestCasesPath.EXECUTE_CREATE_CHANNEL);
+  }
+
+  protected static Stream<String> executeInviteToChannelTestCases() throws IOException {
+    return loadTestCasesFromResourceFile(TestCasesPath.EXECUTE_INVITE_TO_CHANNEL);
+  }
+
+  protected static Stream<String> executeInviteToChannelTestCasesWrongInput() throws IOException {
+    return loadTestCasesFromResourceFile(TestCasesPath.EXECUTE_INVITE_TO_CHANNEL_WRONG_INPUT);
   }
 
   protected static Stream<String> fromJsonFailTestCases() throws IOException {
